@@ -1,5 +1,6 @@
 # #DesktopLiveStreaming
 _loosely translated_
+### [http://www.cnblogs.com/luconsole/p/6079534.html](http://www.cnblogs.com/luconsole/p/6079534.html)
 
 Knowing how to play live broadcast, **I wrote a small program** that will record the desktop and output audio and microphone of the machine, encoded as h264 and aac, and at the same time use the windows IOCP (I/O Completion Port) to create it easily A server that provides web services and live broadcast services, supports httpflv and hls live broadcast.
 

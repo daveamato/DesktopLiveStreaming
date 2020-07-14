@@ -1,10 +1,9 @@
 ﻿<!DOCTYPE html>
 
-<html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <title>DesktopLiveStreaming</title>
-    <!--Visual Studio 是最好的IDE。-->
     <style>
         * {
             margin: 0;
@@ -177,7 +176,7 @@
                                 }
                             </script>
                             <span style="font-size:12px">
-                                ,粘贴流真实地址后可用手机或者电脑视频播放器(手机可以Vplayer)，以流地址方式打开。
+                                , enter the stream URL
                             </span>
                             <br>
                             <div class="code">
@@ -185,7 +184,7 @@
                             </div>
                             <strong style="color:dodgerblue"><a id="webwatchlink" href="./hls.html"> 点击这里进行网页直播</a></strong>
                             <br>
-                            <span id="hlsinfo" style="font-size:12px;visibility:hidden;color:#DA920D">注意：如果当前是hls模式(最好使用谷歌浏览器播放)，当服务器启动后，需要稍微等待5s左右，让首个ts文件生成，才能正常观看。
+                            <span id="hlsinfo" style="font-size:12px;visibility:hidden;color:#DA920D">HLS requires ~3 seconds to create TS stream
                             <br/>同时，选择httpflv就会有更低的延迟体验。</span>
                             <script>
                                 document.getElementById("hlsinfo").style.visibility = "hidden";
